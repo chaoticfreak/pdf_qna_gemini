@@ -73,7 +73,7 @@ def user_input(user_question):
 # Main Function
 def main():
     st.set_page_config(page_title="Chat With PDFs from Directory", layout="wide")
-    st.header("Bio-Science")
+    st.header("BIO-Forte")
 
     # if st.button("Process PDFs in 'data' directory"):
     #     with st.spinner("Reading and processing PDFs..."):
@@ -88,7 +88,7 @@ def main():
     #         except Exception as e:
     #             st.error(f"Error during PDF processing: {e}")
 
-    user_question = st.text_input("Ask a question from the PDFs:")
+    user_question = st.text_input("Ask a question ")
     if user_question:
         user_input(user_question)
 
